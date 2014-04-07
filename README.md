@@ -12,7 +12,7 @@ The quickstart archetype creates a simple XO application using the Neo4j binding
 
 	mvn archetype:generate \
       -DarchetypeArtifactId=xo-neo4j-quickstart \
-      -DarchetypeGroupId=com.smbtec.xo.archetypes \
+      -DarchetypeGroupId=com.smb-tec.xo.archetypes \
       -DarchetypeVersion=0.0.1-SNAPSHOT \
       -DgroupId=your.company \
       -DartifactId=my-xo-neo4j
