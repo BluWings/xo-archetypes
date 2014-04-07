@@ -4,7 +4,7 @@
 
 	<groupId>com.smbtec.xo.archetypes</groupId>
 	<artifactId>xo-archetype-project</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<parent>
@@ -17,6 +17,16 @@
 	<description>This project provides several Maven archetypes for eXtended Objects (XO).</description>
 	<url>http://www.github.com/BluWings/xo-archetypes</url>
 	<inceptionYear>2014</inceptionYear>
+
+	<developers>
+		<developer>
+			<organization>SMB GmbH</organization>
+			<name>Lars Martin</name>
+			<email>lars.martin@smb-tec.com</email>
+		</developer>
+	</developers>
+
+
 
 	<modules>
 		<module>xo-neo4j-quickstart</module>
@@ -180,9 +190,9 @@
 	</build>
 
 	<scm>
-		<connection>scm:git:git@github.com:akquinet/android-archetypes.git</connection>
-		<url>git@github.com:akquinet/android-archetypes.git</url>
-		<developerConnection>scm:git:git@github.com:akquinet/android-archetypes.git</developerConnection>
+		<connection>scm:git:git@github.com:BluWings/xo-archetypes.git</connection>
+		<url>git@github.com:BluWings/xo-archetypes.git</url>
+		<developerConnection>scm:git:git@github.com:BluWings/xo-archetypes.git</developerConnection>
 	</scm>
 
 
@@ -247,4 +257,8 @@
 		</profile>
 
 	</profiles>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/BluWings/xo-archetypes/issues</url>
+	</issueManagement>
 </project>

@@ -30,8 +30,8 @@ import com.buschmais.xo.api.XOException;
 import com.buschmais.xo.api.XOManager;
 import com.buschmais.xo.api.XOManagerFactory;
 import com.buschmais.xo.api.bootstrap.XO;
-import com.smbtec.xo.samples.acl.domain.Group;
-import com.smbtec.xo.samples.acl.domain.User;
+import ${package}.domain.Group;
+import ${package}.domain.User;
 
 public class XOTest {
 
