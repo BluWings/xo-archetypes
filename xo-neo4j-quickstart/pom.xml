@@ -13,7 +13,7 @@
 	</organization>
 
 	<parent>
-		<groupId>com.smbtec.xo.archetypes</groupId>
+		<groupId>com.smb-tec.xo.archetypes</groupId>
 		<artifactId>xo-archetype-project</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
