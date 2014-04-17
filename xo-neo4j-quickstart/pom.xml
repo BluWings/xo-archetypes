@@ -3,13 +3,8 @@
 
 	<artifactId>xo-neo4j-quickstart</artifactId>
 	<name>XO Archetypes - xo-neo4j-quickstart</name>
-	<description>Creates a skeleton for an XO-Neo4j application</description>
+	<description>Creates a skeleton for an XO application using the Neo4j graph database backend.</description>
 	<packaging>maven-archetype</packaging>
-
-	<organization>
-		<name>SMB GmbH</name>
-		<url>http://www.smb-tec.com</url>
-	</organization>
 
 	<parent>
 		<groupId>com.smb-tec.xo.archetypes</groupId>
