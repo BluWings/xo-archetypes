@@ -79,7 +79,7 @@ public class XOTest {
         try {
 
             /**
-             * Create a entity of type {@link User} and set some properties.
+             * Create an entity of type {@link User} and set some properties.
              */
             final User user = xoManager.create(User.class);
             user.setName("mike");
@@ -87,7 +87,7 @@ public class XOTest {
             user.setLastname("Smith");
 
             /**
-             * Create an entity of type {@link Group} and the user to this group.
+             * Create an entity of type {@link Group} and add the user to this group.
              */
             final Group employees = xoManager.create(Group.class);
             employees.setName("Employees");
