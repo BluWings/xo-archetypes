@@ -26,8 +26,9 @@
     </developers>
 
     <modules>
-        <module>xo-neo4j-quickstart</module>
         <module>xo-blueprints-quickstart</module>
+        <module>xo-neo4j-quickstart</module>
+        <module>xo-orientdb-quickstart</module>
     </modules>
 
     <organization>
