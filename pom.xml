@@ -27,6 +27,7 @@
 
     <modules>
         <module>xo-neo4j-quickstart</module>
+        <module>xo-blueprints-quickstart</module>
     </modules>
 
     <organization>
