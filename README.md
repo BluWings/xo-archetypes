@@ -58,3 +58,13 @@ xo-titan-quickstart
 -------------------
 
 t.b.d.
+
+License
+-------
+
+``xo-archetypes`` is contributed under Apache License 2.0.
+
+Continuous Build
+----------------
+
+[![Build Status](https://secure.travis-ci.org/BluWings/xo-archetypes.png)](http://travis-ci.org/BluWings/xo-archetypes)
