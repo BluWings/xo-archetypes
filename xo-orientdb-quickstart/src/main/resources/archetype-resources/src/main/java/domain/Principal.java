@@ -20,12 +20,12 @@ package ${package}.domain;
 
 import java.util.Set;
 
-import com.buschmais.xo.neo4j.api.annotation.Label;
-import com.buschmais.xo.neo4j.api.annotation.Relation;
-import com.buschmais.xo.neo4j.api.annotation.Relation.Incoming;
-import com.buschmais.xo.neo4j.api.annotation.Relation.Outgoing;
+import com.smbtec.xo.tinkerpop.blueprints.api.annotation.Vertex;
+import com.smbtec.xo.tinkerpop.blueprints.api.annotation.Edge;
+import com.smbtec.xo.tinkerpop.blueprints.api.annotation.Edge.Incoming;
+import com.smbtec.xo.tinkerpop.blueprints.api.annotation.Edge.Outgoing;
 
-@Label
+@Vertex
 public interface Principal {
 
     String getName();
@@ -35,14 +35,14 @@ public interface Principal {
     /**
      * @return a set of {@link Group} entities which this entity is a member of
      */
-    @Relation("IS_MEMBER_OF")
+    @Edge("IS_MEMBER_OF")
     @Outgoing
     Set<Group> getGroups();
 
     /**
      * @return a set of {@link Principal} entities which are member of this entity
      */
-    @Relation("IS_MEMBER_OF")
+    @Edge("IS_MEMBER_OF")
     @Incoming
     Set<Principal> getMembers();
 

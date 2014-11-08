@@ -1,7 +1,7 @@
 <v1:xo version="1.0" xmlns:v1="http://buschmais.com/xo/schema/v1.0">
     <xo-unit name="${artifactId}">
         <description></description>
-        <url>file:${artifactId}</url>
+        <url>memory:${artifactId}</url>
         <provider>com.smbtec.xo.orientdb.api.OrientDbXOProvider</provider>
         <types>
             <type>${package}.domain.Group</type>

@@ -18,9 +18,9 @@
  */
 package ${package}.domain;
 
-import com.buschmais.xo.neo4j.api.annotation.Label;
+import com.smbtec.xo.tinkerpop.blueprints.api.annotation.Vertex;
 
-@Label
+@Vertex
 public interface Group extends Principal {
 
 }
