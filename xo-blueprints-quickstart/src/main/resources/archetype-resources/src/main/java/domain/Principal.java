@@ -35,15 +35,15 @@ public interface Principal {
     /**
      * @return a set of {@link Group} entities which this entity is a member of
      */
-    Edge("IS_MEMBER_OF")
-    @Outgoing
+    @Edge("IS_MEMBER_OF")
+    @Incoming
     Set<Group> getGroups();
 
     /**
      * @return a set of {@link Principal} entities which are member of this entity
      */
     @Edge("IS_MEMBER_OF")
-    @Incoming
+    @Outgoing
     Set<Principal> getMembers();
 
 }

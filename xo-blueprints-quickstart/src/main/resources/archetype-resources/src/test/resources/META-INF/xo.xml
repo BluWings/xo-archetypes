@@ -11,5 +11,10 @@
         <validation-mode>NONE</validation-mode>
         <concurrency-mode>SINGLETHREADED</concurrency-mode>
         <default-transaction-attribute>MANDATORY</default-transaction-attribute>
+
+        <properties>
+            <property name="blueprints.graph" value="com.tinkerpop.blueprints.impls.tg.TinkerGraph"/>
+        </properties>
+
     </xo-unit>
 </v1:xo>
