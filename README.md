@@ -6,7 +6,7 @@ This projects provides several Maven archetypes for [eXtended Objects framework]
 xo-blueprints-quickstart
 ------------------------
 
-The quickstart archetype creates a simple XO application using the [TinkerPop Blueprints](https://github.com/BluWings/xo-tinkerpop-blueprints) binding. To initiate the XO-Blueprints application call:
+The quickstart archetype creates a simple XO application using the [TinkerPop Blueprints](https://github.com/SMB-TEC/xo-tinkerpop-blueprints) binding. To initiate the XO-Blueprints application call:
 
     mvn archetype:generate \
       -DarchetypeArtifactId=xo-blueprints-quickstart \
@@ -19,6 +19,11 @@ Once generated, the application is ready to be built and test:
 
     cd my-xo-blueprints
     mvn clean verify
+
+xo-mongodb-quickstart
+---------------------
+
+t.b.d.
 
 xo-neo4j-quickstart
 -------------------
@@ -40,7 +45,7 @@ Once generated, the application is ready to be built and test:
 xo-orientdb-quickstart
 ----------------------
 
-The quickstart archetype creates a simple XO application using the [OrientDb](https://github.com/BluWings/xo-orientdb) binding. To initiate the XO-OrientDb application call:
+The quickstart archetype creates a simple XO application using the [OrientDb](https://github.com/SMB-TEC/xo-orientdb) binding. To initiate the XO-OrientDb application call:
 
     mvn archetype:generate \
       -DarchetypeArtifactId=xo-orientdb-quickstart \
@@ -59,6 +64,7 @@ xo-titan-quickstart
 
 t.b.d.
 
+
 License
 -------
 
@@ -67,4 +73,4 @@ License
 Continuous Build
 ----------------
 
-[![Build Status](https://secure.travis-ci.org/BluWings/xo-archetypes.png)](http://travis-ci.org/BluWings/xo-archetypes)
+[![Build Status](https://secure.travis-ci.org/SMB-TEC/xo-archetypes.png)](http://travis-ci.org/SMB-TEC/xo-archetypes)
